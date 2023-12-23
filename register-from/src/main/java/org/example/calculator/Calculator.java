@@ -12,13 +12,6 @@ public class Calculator {
         }
     }
 
-    /**
-     * Returns the result of the calculation of two doubles using the operation indicated by the operator.
-     *
-     * @param d1       first operand
-     * @param d2       second operand - In case of SQRT this param is ignored.
-     * @param operator - it could one of: +, -, /, *, SQRT.
-     */
     public double compute(double d1, double d2,
                           String operator) throws IllegalArgumentException {
         double result;
